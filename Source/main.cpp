@@ -5,6 +5,7 @@
 #include <SceneLoader.h>
 #include "Scene.h"
 #include "GP_ONE.h"
+#include "GP_ONE_VEC.h"
 
 const int TEST_ITERATIONS = 1000;
 

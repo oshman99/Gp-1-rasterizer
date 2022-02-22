@@ -5,12 +5,15 @@ project(${PROJECT_NAME} VERSION 1.0)
 
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native ")
 
 add_executable(BinaryRenderer
 		Source/main.cpp
 
 		Source/GP_ONE.h
 		Source/GP_ONE.cpp
+		Source/GP_ONE_VEC.h
+		Source/GP_ONE_VEC.cpp
 
 		Source/Sprite.h
 		Source/Sprite.cpp
